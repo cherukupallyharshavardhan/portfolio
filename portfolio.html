@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsha Vardhan | Portfolio</title>
+  <style>
+    /* Reset & Fonts */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #0f0f0f; color: #fff; }
+
+    /* Navbar */
+    header { position: fixed; width: 100%; background: rgba(0,0,0,0.85); padding: 1rem 2rem; z-index: 1000; }
+    nav { display: flex; justify-content: space-between; align-items: center; }
+    nav h1 { font-size: 1.5rem; color: #00ffcc; }
+    nav a { color: #fff; text-decoration: none; margin: 0 15px; transition: 0.3s; }
+    nav a:hover { color: #00ffcc; }
+
+    /* Hero Section */
+    .hero { height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; background: linear-gradient(135deg, #0f0f0f, #1a1a1a); }
+    .hero h2 { font-size: 2.5rem; margin-bottom: 1rem; color: #00ffcc; }
+    .hero p { font-size: 1.2rem; color: #ccc; }
+
+    /* Section Styles */
+    section { padding: 80px 20px; max-width: 1000px; margin: auto; }
+    h2 { font-size: 2rem; color: #00ffcc; margin-bottom: 20px; border-bottom: 2px solid #00ffcc; display: inline-block; }
+
+    /* Skills */
+    .skills span { background: #222; margin: 5px; padding: 10px 15px; border-radius: 20px; display: inline-block; border: 1px solid #00ffcc; }
+
+    /* Projects */
+    .project { background: #1a1a1a; padding: 20px; margin: 15px 0; border-radius: 10px; transition: transform 0.3s; }
+    .project:hover { transform: translateY(-5px); border-left: 4px solid #00ffcc; }
+
+    /* Contact */
+    .contact a { display: inline-block; margin: 10px; padding: 10px 20px; background: #00ffcc; color: #000; border-radius: 5px; text-decoration: none; font-weight: bold; }
+    .contact a:hover { background: #00cc99; }
+
+    /* Footer */
+    footer { text-align: center; padding: 20px; background: #111; color: #aaa; }
+
+    /* Smooth Scroll */
+    html { scroll-behavior: smooth; }
+
+    /* Mobile */
+    @media(max-width:768px) {
+      nav { flex-direction: column; }
+      .hero h2 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <h1>Harsha Vardhan</h1>
+      <div>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Hello, I'm Harsha 👋</h2>
+    <p>A Computer Science Graduate passionate about AI, Web Development, and Innovative Solutions.</p>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Motivated and detail-oriented Computer Science Engineering graduate skilled in Java, Python, and C++. 
+      Strong foundation in software development, algorithms, and AI/ML projects. 
+      Eager to apply technical expertise in solving real-world problems.
+    </p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><b>Malla Reddy Institute of Technology</b> (2021–2025) – B.Tech CSE, CGPA: 6.65</p>
+    <p><b>Sri Chaitanya Junior College</b> (2019–2021) – MPC, Score: 776</p>
+    <p><b>Nagarjuna Talent School</b> (2018–2019) – CGPA: 8.0</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Java</span>
+      <span>Python</span>
+      <span>C++</span>
+      <span>AI/ML</span>
+      <span>CMS Tools</span>
+      <span>Policy-Based Decision Making</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>🔹 Explainable AI Model for Smart Agriculture</h3>
+      <p>Built an interpretable ML model for predictive maintenance in agriculture with SHAP values for transparency. Achieved 93% accuracy with real-time alerts.</p>
+    </div>
+    <div class="project">
+      <h3>🔹 Weapon Detection in Surveillance Videos</h3>
+      <p>Developed a real-time object detection system using YOLOv5 for CCTV surveillance, integrated with web and mobile notifications.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <a href="mailto:cherukupallyharshavardhan@gmail.com">Email Me</a>
+      <a href="https://linkedin.com/in/cherukupally-harsha-vardhan-670200360" target="_blank">LinkedIn</a>
+      <a href="https://github.com/cherukupallyharshavardhan" target="_blank">GitHub</a>
+      <a href="tel:+919618114316">Call Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Harsha Vardhan | Built with ❤️</p>
+  </footer>
+
+</body>
+</html>
